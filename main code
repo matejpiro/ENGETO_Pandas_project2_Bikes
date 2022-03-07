@@ -1,0 +1,16 @@
+# PŘÍSTUP K DATŮM
+
+import numpy as np
+import pandas as pd
+import sqlalchemy
+
+user = "student"
+password = "p7%40vw7MCatmnKjy7"
+conn_string = f"mysql+pymysql://{user}:{password}@data.engeto.com/data"
+alchemy_conn = sqlalchemy.create_engine(conn_string)
+
+df = pd.read_sql('edinburgh_bikes',
+                alchemy_conn)
+
+# PRŮMĚRNÁ DOBA VÝPŮJČKY v minutách
+df.duration.mean()/60  
