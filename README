@@ -1,2 +1,8 @@
 Analýza dat o výpůjčkách kol v Edinburghu za období 2018 - 2021 spojená s analýzou vlivu počasí na počet výpůjček.
 Analýza je provedena v Pythonu v Pandas modulu
+Datová sada obsahuje asi 440 000 záznamů o výpůjčkách kol na 199 stanicích. 
+
+Analýza se zabývá identifikací nejfrekventovanějších a nejméně frekventovaných stanic, odhaluje aktivní a neaktivní stanice,
+popisuje průměrnou délku výpůjček, rozebírá a srovnává počty výpůjček o víkendu a v pracovní dny, rozkrývá vývoj výpujček v kol v čase, 
+identifikuje stanice, kde se kola hromadí a stanice, kde mají kola tendenci chybět, ukazuje vzdálenosti mezi jednotlivými stanicemi a konečně
+rozkrývá vliv jednotlivých složek počasí na vývoj poptávky po výpůjčkách kol.
